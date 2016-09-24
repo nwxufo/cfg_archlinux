@@ -1,0 +1,14 @@
+1.openssh connect to my RaspberryPi.
+2. cp Pi's configure
+3. git my system's config to github.
+	3.1 gen sshkey
+	3.2 cp pubkey to github
+	3.3 learn the file .ignore
+	3.4 git remote learn and use.
+4. learn lxc.
+	built my develop environment.
+5. start up my private job : program a python script for
+	quickly built my archlinux environment.
+6. the privilage of pla's home dirctroy have trouble. learn it and 
+correct it as the dirctory '/home/pla1'
+	

@@ -1,0 +1,5 @@
+sleep 1
+#ibus-daemon -x -d
+fcitx
+#nitrogen --restore
+xscreensaver -no-splash &

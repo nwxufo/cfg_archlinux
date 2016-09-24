@@ -1,0 +1,7 @@
+#file preferences
+	about icewm's font\ monitor show ;LED Time show; Mail Box 
+Show; NetStatus Show etc. in the right bottom.
+	and Destop's background.
+
+more about reference
+http://blog.sina.cn/s/blog_4567bb800100wxcq.html
