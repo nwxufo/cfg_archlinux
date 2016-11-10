@@ -1,0 +1,23 @@
+1.Taglist
+1.1 Download
+	http://www.vim.org/scripts/script.php?script_id=273
+1.2 
+	mkdir ~/.vim
+	cd ~/.vim
+	uzip ${Taglist Download path}/taglist*.zip 
+1.3 config .vim/plugin/taglist.vim
+	location "if !exitsts(loaded_taglist)" add info before this line.
+	
+	Tlist_Ctags_Cmd=${ctags path}
+
+	catgs path can be found by command "where is ctags"
+1.4 HowTo use
+	cd ${linux source code patch}
+	1.4.1 generat tag
+		catags -R
+	1.4.2 open Tlist
+		in vim command line , input:
+		Tlist Toggle
+	1.4.3 switch between Taglist and vim Window.
+		"ctr" keyboard button and double "w" button.
+
