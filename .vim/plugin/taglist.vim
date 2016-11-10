@@ -65,6 +65,10 @@ if !exists('s:cpo_save')
 endif
 set cpo&vim
 
+"nwx added
+"ctags's patch can be found by operat command "Whereis ctags"
+let Tlist_Ctags_Cmd ="/usr/bin/ctags"
+
 if !exists('loaded_taglist')
     " First time loading the taglist plugin
     "

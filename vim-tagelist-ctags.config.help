@@ -17,7 +17,8 @@
 		catags -R
 	1.4.2 open Tlist
 		in vim command line , input:
-		Tlist Toggle
+		TlistToggle
 	1.4.3 switch between Taglist and vim Window.
-		"ctr" keyboard button and double "w" button.
-
+		hold "ctr" keyboard button and click double "w" button.
+	1.4.4 jump to function's definition/implecation.
+		move cursor to function name. then "Ctrl + ]", to view function's implementation. and "Ctrl + o" return back.
