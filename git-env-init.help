@@ -1,0 +1,16 @@
+git config --global user.name "Hello"
+# mailist1go@gmail.com is also available.
+git config --global user.email "printer_bzu@163.com"
+ssh-keygen -t rsa -b 4096 -C "printer_bzu@163.com"
+# Andd existing SSH key
+# $ ssh-add ~/.ssh/id_rsa
+# Ensure ssh-agent is enabled:
+eval "$(ssh-agent -s)"
+
+# Add the SSH key to your GitHub account.
+
+# Test 
+$ ssh -T git@github.com
+
+# Fork a repository
+$ gitt clone https://github.com/nwxufo/cfg_archlinux
