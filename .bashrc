@@ -106,7 +106,22 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
     . /etc/bash_completion
 fi
 alias vi=vim
-
+#alias rm='rm -i'
+mkdir -p ~/.trash
+alias rm=trash
+alias unrm=undelfile
+undelfile(){
+	mv -i ~/.trash/$@ ./
+}
+trash(){
+	mv $@ ~/.trash
+}
+cleartrash()
+{
+#	read -p "clear sure?[n]" confirm 
+#		([ $confirm=='y' ]|| [ $confirm=='Y' ])&&/bin/rm -rf ~/.trash/*
+	/bin/rm -rfi ~/.trash/*
+}
 export JAVA_HOME=/usr/lib/jvm/jdk6
 export JRE_HOME=${JAVA_HOME}/jre
 export CLASSPATH=.:${JAVA_HOME}/lib:${JRE_HOME}/lib

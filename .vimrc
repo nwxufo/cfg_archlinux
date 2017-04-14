@@ -26,8 +26,7 @@ set cindent           "  C语言格式对齐
 set nobackup          " 不要备份文件
 set clipboard+=unnamed " 与windows共享剪贴板
 
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-"""""新文件标题""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"""""新文件标题""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "新建.c,.h,.sh,.java文件，自动插入文件头 
 autocmd BufNewFile *.cpp,*.[ch],*.sh,*.java exec ":call SetTitle()" 
 ""定义函数SetTitle，自动插入文件头 
@@ -48,6 +47,7 @@ func SetTitle()
 	     call append(line(".")+1, " *  Author: milo") 
 	     call append(line(".")+2, " *  Mail: printer_bzu@163.com ") 
 		 call append(line(".")+3, " *  Created Time: ".strftime("%Y-%m-%d %H:%M")) 
+		 "call append(line(".")+4, " *  This program is free software; you can redistribute it and/or modify it under the smems of the GUN General Public License as published by the Free Software Foundation; version 2 of the lLiscense.
 		 call append(line(".")+4, " */") 
 		 call append(line(".")+5, "")
 	endif
