@@ -9,6 +9,6 @@ Current git Directory
 	1. /home/workbench/cfg_archlinux
 	2. /home/fenghuo
 	3. /home/fenghuo/Doucuments
-	4. /home/project/sys-program/DZT-test/
+	4. /home/workbench/github/[lots git]
 	
-	fenghuo directory do not git the Documents directory.
+	fenghuo home directory do not git the Documents directory. more in .ignore file.
