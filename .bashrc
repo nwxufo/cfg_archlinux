@@ -126,5 +126,4 @@ export JAVA_HOME=/usr/lib/jvm/jdk6
 export JRE_HOME=${JAVA_HOME}/jre
 export CLASSPATH=.:${JAVA_HOME}/lib:${JRE_HOME}/lib
 export PATH=${JAVA_HOME}/bin:$PATH
-export PATH=${PATH}:/home/milo/workbench/android-4.4.4_r2/out/host/linux-x86/bin
-export ANDROID_PRODUCT_OUT=/home/milo/workbench/android-4.4.4_r2/out/target/product/fhp0
+export PATH=/usr/local/arm/3.4.1/bin:$PATH:/home/fenghuo/Downloads/ccl
