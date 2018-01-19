@@ -6,9 +6,9 @@ set up root:
 		[input root's counter password]
 Current git Directory
 =====================
-	1. /home/workbench/cfg_archlinux
+x	1. /home/workbench/cfg_archlinux
 	2. /home/fenghuo
 	3. /home/fenghuo/Doucuments
-	4. /home/workbench/github/[lots git]
+-	4. /home/workbench/github/[lots git]
 	
 	fenghuo home directory do not git the Documents directory. more in .ignore file.
