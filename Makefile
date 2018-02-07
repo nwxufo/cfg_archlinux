@@ -39,15 +39,18 @@ git-sync:
 	git status\
 	git push origin fenghuo\
 	)
-	#. /srv/test/makeBlogSys
+		#. /srv/test/makeBlogSys
 	(\
 	cd /srv/test/makeBlogSys \
 	git status\
 	git push origin master\
-	#. /srv/test/TurtlServer.deploy
-	#. /srv/test/AnkiServer.deploy
+	)
 	#. /home/workbench/coding-interview-university
-	cd /home/workbench/coding-interview-university\
+	(\
+	cd /home/workbench/coding-interview-university \
 	git status\
 	git push origin my\
 	)
+	#. /srv/test/TurtlServer.deploy
+	#. /srv/test/AnkiServer.deploy
+
