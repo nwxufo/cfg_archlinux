@@ -28,20 +28,20 @@ notebook: blog
 git-sync:
 	#. /home/fenghuo
 	(\
-	cd /home/fenghuo\
+	cd /home/fenghuo \
 	git status\
 	git remote -v\
 	git push origin ubuntu-fh\
 	)
 	#. /home/fenghuo/Documents
 	(\
-	cd /home/fenghuo/Documents\
+	cd /home/fenghuo/Documents \
 	git status\
 	git push origin fenghuo\
 	)
 	#. /srv/test/makeBlogSys
 	(\
-	cd /srv/test/makeBlogSys\
+	cd /srv/test/makeBlogSys \
 	git status\
 	git push origin master\
 	#. /srv/test/TurtlServer.deploy
