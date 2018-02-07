@@ -27,21 +27,27 @@ notebook: blog
 
 git-sync:
 	#. /home/fenghuo
-	cd /home/fenghuo
-	git status
-	git remote -v
-	git push origin ubuntu-fh
+	(\
+	cd /home/fenghuo\
+	git status\
+	git remote -v\
+	git push origin ubuntu-fh\
+	)
 	#. /home/fenghuo/Documents
-	cd /home/fenghuo/Documents
-	git status
-	git push origin fenghuo
+	(\
+	cd /home/fenghuo/Documents\
+	git status\
+	git push origin fenghuo\
+	)
 	#. /srv/test/makeBlogSys
-	cd /srv/test/makeBlogSys
-	git status
-	git push origin master
+	(\
+	cd /srv/test/makeBlogSys\
+	git status\
+	git push origin master\
 	#. /srv/test/TurtlServer.deploy
 	#. /srv/test/AnkiServer.deploy
 	#. /home/workbench/coding-interview-university
-	cd /home/workbench/coding-interview-university
-	git status
-	git push origin my
+	cd /home/workbench/coding-interview-university\
+	git status\
+	git push origin my\
+	)
