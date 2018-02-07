@@ -30,7 +30,7 @@ git-sync:
 	cd /home/fenghuo
 	git status
 	git remote -v
-	git push ubuntu-fh
+	git push origin ubuntu-fh
 	#. /home/fenghuo/Documents
 	cd /home/fenghuo/Documents
 	git status
