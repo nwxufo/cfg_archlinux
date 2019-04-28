@@ -1,6 +1,17 @@
-URxvt*title: Terminal
-URxvt*saveLines: 16384
-URxvt*font: xft:Monospace:size=12,xft:SimSun:size=12
+
+!ref: http://wiki.afterstep.org/index.php?title=Rxvt-Unicode_Configuration_Tutorial
+! do not scroll with output
+URxvt*scrollTtyOutput: false
+
+! scroll in relation to buffer (with mouse scroll or Shift+Page Up)
+URxvt*scrollWithBuffer: true
+
+! scroll back to the bottom on keypress
+URxvt*scrollTtyKeypress: true
+
+URxvt*title: URxvt Terminal
+URxvt*saveLines: 96384
+URxvt*font: xft:Monospace:size=14,xft:SimSun:size=12
 URxvt*background: Black
 URxvt*foreground: Wheat
 URxvt*cursorColor: Orchid
@@ -8,3 +19,18 @@ URxvt*scrollKey: false
 URxvt*scrollstyle: plain
 URxvt*scrollBar_right: true
 URxvt*colorUL: Green
+URxvt.letterSpace: -1
+! tab setting
+URxvt.perl-ext-common: ...,tabbed,...,osc-xterm-clipboard,...
+!URxvt.tabbed.tabbar-fg: 2
+!URxvt.tabbed.tabbar-bg: 0
+!URxvt.tabbed.tab-fg: 3
+!URxvt.tabbed.tab-bg: 0
+URxvt.tabbed.tabbar-fg: 2
+URxvt.tabbed.tabbar-bg: 0
+URxvt.tabbed.tab-fg: 0
+URxvt.tabbed.tab-bg: 2
+URxvt.tabbed.autohide:  no
+URxvt.tabbed.new-button: no
+URxvt.tabbed.title: no
+URxvt.tabbed.tabber:4
