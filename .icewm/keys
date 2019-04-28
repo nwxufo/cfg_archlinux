@@ -12,8 +12,10 @@
 key "Alt+Ctrl+t"		urxvt
 key "Alt+Ctrl+f"		firefox
 key "Alt+Ctrl+e"		nedit
-key "Alt+Ctrl+g"		gimp
-key "Alt+Ctrl+c"		chromium
+#key "Alt+Ctrl+g"		gimp
+key "Alt+Ctrl+d"			goldendict
+#key "Alt+Ctrl+b"		chromium
+key "Alt+Ctrl+g"		chromium
 #key "Alt+Ctrl+n"		netscape -noraise -remote openBrowser
 #key "Alt+Ctrl+b"		netscape -noraise -remote openBookmarks
 #key "Alt+Ctrl+m"		netscape -noraise -remote openURL(mailto:,new-window) 
@@ -42,3 +44,12 @@ key "XF86WWW"		sensible-browser
 key "XF86Mail"			mozilla-thunderbird mailto:
 key "XF86Search"		sensible-browser http://www.yahoo.com/
 key "XF86Eject"			eject
+
+######custom entries######
+#super means 'win-key'
+key "Super+L" slimlock
+key "Super+F" pcmanfm
+key "Super+O" opera
+key "Super+P" /home/milo/BUILD/Pycharm/pycharm-2019.1.1/bin/pycharm.sh
+key "Super+G" gnome-terminal
+

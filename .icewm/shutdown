@@ -1,0 +1,4 @@
+#This Script Does not work. Seemed this func be abort by icewm.
+sleep 10
+sync
+umount /mnt/*

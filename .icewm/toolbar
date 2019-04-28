@@ -5,4 +5,4 @@
 # (re)install icewm.
 #
 prog Term xterm urxvt 
-prog Chrome chrome chromium
+prog Firefox mozicon16 firefox

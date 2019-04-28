@@ -5,8 +5,9 @@
 # (re)install icewm.
 #
 prog Terminal xterm urxvt
+prog PCManFM pcmanfm pcmanfm
+prog VMware vmware vmware
 prog Firefox mozicon16 firefox
-prog Chrome chrome chromium
 prog SMPlayer mplayer smplayer
 prog Gummi gummi gummi
 prog Gimp gimp gimp

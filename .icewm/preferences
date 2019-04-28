@@ -222,7 +222,6 @@ TaskBarAutoHide=1 # 0/1
 
 #  Show APM/ACPI/Battery/Power status monitor on task bar
 # TaskBarShowAPMStatus=0 # 0/1
-TaskBarShowAPMStatus=1
 
 #  Show APM status on task bar in time-format
 # TaskBarShowAPMTime=1 # 0/1
@@ -511,6 +510,7 @@ TaskBarShowAPMStatus=1
 
 #  Command to lock display/screensaver
 # LockCommand="xlock -remote -mode blank"
+LockCommand="slimlock"
 
 #  Command to run on clock
 # ClockCommand="xclock -name icewm -title Clock"
@@ -555,16 +555,18 @@ TaskBarShowAPMStatus=1
 # AddressBarCommand=""
 
 #  Network device to show status for
-NetworkStatusDevice="enp0s25"
+NetworkStatusDevice="wlp3s0 enp0s25"
 
 #  Clock Time format (strftime format string)
-# TimeFormat="%X"
+#TimeFormat="%X,%x"
+#TimeFormat="%a, %d %b %Y "
 
 #  Alternate Clock Time format (e.g. for blinking effects)
 # TimeFormatAlt=""
 
 #  Clock Date format for tooltip (strftime format string)
 # DateFormat="%c"
+TimeFormat="%T %j"
 
 #  screen/output name of the primary screen
 # XRRPrimaryScreenName=""
@@ -1271,7 +1273,7 @@ NetworkStatusDevice="enp0s25"
 
 #  
 
-WorkspaceNames=" 1 ", " 2 ", " 3 ", " 4 "
+WorkspaceNames=" 1_master ", " 2 ", " 3 ", " 4 ", " 5 ", " 6_Browser ", " 7 ", " 8 ", " 9 ", " 0 " 
 
 #
 # icewmbg preferences
@@ -1301,5 +1303,4 @@ WorkspaceNames=" 1 ", " 2 ", " 3 ", " 4 "
 #  Image to announce for semi-transparent windows
 # DesktopTransparencyImage=""
 
-#  
-
+#END  
