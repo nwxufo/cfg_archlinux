@@ -42,3 +42,10 @@ if [[ $DISPLAY ]]; then
 fi
 # # for .tmux.conf: #T - tells to display current pane title, which can be set with some escape sequence. For doing this at each shell command,
 [[ -n "$TMUX" ]] && PROMPT_COMMAND='echo -n -e "\e]2;${PWD/${HOME}/~}\e\\"'
+
+#for emacs
+alias vi='emacs -nw'
+alias vim='emacs -nw'
+alias emacs='emacs -nw'
+
+
