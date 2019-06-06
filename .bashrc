@@ -27,25 +27,26 @@ GREEN="\[\e[1;32m\]"
 #else
 #  PS1="$GREEN\u [ $NORMAL\w$GREEN ]\$ $NORMAL"
 #fi
-PS1="$GREEN \$ $NORMAL"
-
+#PS1="$GREEN \$ $NORMAL"
+PS1="$GREEN § $NORMAL"
 #forbidden auto black screen.
 setterm -blank 0
 
 #milo add
-HISTSIZE=90000
+HISTSIZE=3000
 PROMPT_COMMAND='echo -ne "\033]0;${USER}@${HOSTNAME}:${PWD}\007"'
 if [[ $DISPLAY ]]; then
 	# If not running interactively, do not do anything
 	[[ $- != *i* ]] && return
 	[[ -z "$TMUX" ]] && exec tmux
+else
+	startx
 fi
 # # for .tmux.conf: #T - tells to display current pane title, which can be set with some escape sequence. For doing this at each shell command,
 [[ -n "$TMUX" ]] && PROMPT_COMMAND='echo -n -e "\e]2;${PWD/${HOME}/~}\e\\"'
 
 #for emacs
-alias vi='emacs -nw'
-alias vim='emacs -nw'
+#alias vi='emacs -nw'
+#alias vim='emacs -nw'
 alias emacs='emacs -nw'
-
-
+alias pre-read-c-code='cscope -Rbqk ; ctags -R'
