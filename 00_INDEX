@@ -3,6 +3,8 @@ git dictionary:
 	workbench/blog_pelican
 	home-config-sync
 	personal
+for this arch-system configuration:
+	git push --set-upstream origin arch-dell
 
 +++++++++++++++++++
 TODO List:
